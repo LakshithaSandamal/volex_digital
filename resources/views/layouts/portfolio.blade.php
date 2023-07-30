@@ -10,15 +10,12 @@
 </head>
 
 <body>
+    <div id="preloader"></div>
     @include('components.portfolio.header')
 
-    <div class="container-fluid">
-        <div class="row">
-            @yield('content')
+    @yield('content')
 
-            @include('components.portfolio.footer')
-        </div>
-    </div>
+    @include('components.portfolio.footer')
 
     @include('library.portfolio.scripts')
 </body>

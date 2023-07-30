@@ -1,46 +1,165 @@
-<header class="navbar-expand-lg nav-text position-fixed w-100 z-99">
-    <div class="container-xxl">
-        <div class="row">
-            <div class="col-12 d-flex align-items-center justify-content-between h-70px">
-                <div class="d-flex justify-content-center align-items-center">
-                    <img src="{{ asset('src/logo.svg') }}" class="h-35px nav-logo" alt="VOLEX DIGITAL">
-                    <div class="h-40px d-flex align-items-end">
-                        <span class="fw-bolder nav-brand-name fs-4 lh-1 d-none d-lg-block">VOLEX DIGITAL</span>
+<header class="header-one">
+    <!-- Start top bar -->
+    <div class="topbar-area fix hidden-xs">
+        <div class="container">
+            <div class="row">
+                <div class=" col-md-9 col-sm-9">
+                    <div class="topbar-left">
+                        <ul>
+                            <li><a href="mailto:info@volexdigital.com"><i class="fa fa-envelope"></i>info@volexdigital.com</a></li>
+                            <li><a href="tel:+94766770227"><i class="fa fa-phone-square"></i>+94 766 770 227</a></li>
+                        </ul>
                     </div>
                 </div>
-                <div>
-                    <button class="navbar-toggler btn-menu" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"></button>
-                    <ul class="navbar-nav mt-2 collapse navbar-collapse">
-                        <li class="nav-item">
-                            <a href="#h" class="nav-link">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#p" class="nav-link">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="" class="nav-link">Contact</a>
-                        </li>
-                    </ul>
-                    <div class="offcanvas offcanvas-end bg-offcanvas" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                        <div class="offcanvas-header p-0">
-                            <button type="button" class="nav-close text-white position-absolute z-99 mt-4" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                            <div class="h-100 w-100 position-absolute top-0">
-                                <ul class="navbar-nav mt-50px">
-                                    <li class="nav-item text-center mt-5">
-                                        <a href="#h" class="nav-link">Home</a>
-                                    </li>
-                                    <li class="nav-item text-center mt-5">
-                                        <a href="#p" class="nav-link">About</a>
-                                    </li>
-                                    <li class="nav-item text-center mt-5">
-                                        <a href="" class="nav-link">Contact</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+                <div class="col-md-3 col-sm-3">
+                    <div class="top-social">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google"></i></a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <!-- End top bar -->
+    <!-- header-area start -->
+    <div id="sticker" class="header-area header-area-3 hidden-xs">
+        <div class="container">
+            <div class="row">
+                <!-- logo start -->
+                <div class="col-md-3 col-sm-3">
+                    <div class="logo">
+                        <!-- Brand -->
+                        <a class="navbar-brand page-scroll white-logo" href="index.html">
+                            <img src="{{ asset('img/logo/logo2.png') }}" alt="">
+                        </a>
+                        <a class="navbar-brand page-scroll black-logo" href="index.html">
+                            <img src="{{ asset('img/logo/logo.png') }}" alt="">
+                        </a>
+                    </div>
+                    <!-- logo end -->
+                </div>
+                <div class="col-md-9 col-sm-9">
+                    <div class="header-right-link">
+                        <!-- search option start -->
+                        <div class="search-inner">
+                            <form action="#">
+                                <div class="search-option">
+                                    <input type="text" placeholder="Search...">
+                                    <button class="button" type="submit"><i class="fa fa-search"></i></button>
+                                </div>
+                                <a class="main-search" href="#"><i class="fa fa-search"></i></a>
+                            </form>
+                        </div>
+                        <a class="s-menu" href="login.html">It Consultant</a>
+                    </div>
+                    <!-- mainmenu start -->
+                    <nav class="navbar navbar-default">
+                        <div class="collapse navbar-collapse" id="navbar-example">
+                            <div class="main-menu">
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li><a class="pages" href="index.html">Home</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="index.html">Home 01</a></li>
+                                            <li><a href="index-2.html">Home 02</a></li>
+                                            <li><a href="index-3.html">Home 03</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="pages" href="#">Page</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="about.html">About</a></li>
+                                            <li><a href="team.html">Team</a></li>
+                                            <li><a href="review.html">Reviews</a></li>
+                                            <li><a href="faq.html">FAQ</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="pages" href="#">Services</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="services.html">Services</a></li>
+                                            <li><a href="services-2.html">Services 2</a></li>
+                                            <li><a href="service-details.html">Service Details</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="pages" href="#">Project</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="project.html">Portfolio</a></li>
+                                            <li><a href="project-details.html">Project details</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="pages" href="#">Blog</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="blog.html">Blog grid</a></li>
+                                            <li><a href="blog-sidebar.html">Blog List</a></li>
+                                            <li><a href="blog-details.html">Blog Details</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="contact.html">contacts</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                    <!-- mainmenu end -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- header-area end -->
+    <!-- mobile-menu-area start -->
+    <div class="mobile-menu-area hidden-lg hidden-md hidden-sm">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="mobile-menu">
+                        <div class="logo">
+                            <a href="index.html"><img src="{{ asset('img/logo/logo.png') }}" alt="" /></a>
+                        </div>
+                        <nav id="dropdown">
+                            <ul>
+                                <li><a class="pages" href="index.html">Home</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="index.html">Home 01</a></li>
+                                        <li><a href="index-2.html">Home 02</a></li>
+                                        <li><a href="index-3.html">Home 03</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="pages" href="#">Page</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="about.html">About</a></li>
+                                        <li><a href="team.html">Team</a></li>
+                                        <li><a href="review.html">Reviews</a></li>
+                                        <li><a href="faq.html">FAQ</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="pages" href="#">Services</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="services.html">Services</a></li>
+                                        <li><a href="services-2.html">Services 2</a></li>
+                                        <li><a href="service-details.html">Service Details</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="pages" href="#">Project</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="project.html">Portfolio</a></li>
+                                        <li><a href="project-details.html">Project details</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="pages" href="#">Blog</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="blog.html">Blog grid</a></li>
+                                        <li><a href="blog-sidebar.html">Blog List</a></li>
+                                        <li><a href="blog-details.html">Blog Details</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="contact.html">contacts</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- mobile-menu-area end -->
 </header>
