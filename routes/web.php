@@ -16,8 +16,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [PortfolioController::class , 'index'])->name('portfolio');
-// 
+//
 Route::prefix('/admin')->group(function(){
     Route::get('/', [AdminController::class , 'index'])->name('admin.signIn');
     Route::get('/dashboard', [AdminController::class , 'dashboard'])->name('admin.dashboard');
+});
+
+Route::get('/about',function (){
+   return view('pages.portfolio.about');
 });

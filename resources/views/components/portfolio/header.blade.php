@@ -61,13 +61,7 @@
                         <div class="collapse navbar-collapse" id="navbar-example">
                             <div class="main-menu">
                                 <ul class="nav navbar-nav navbar-right">
-                                    <li><a class="pages" href="index.html">Home</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="index.html">Home 01</a></li>
-                                            <li><a href="index-2.html">Home 02</a></li>
-                                            <li><a href="index-3.html">Home 03</a></li>
-                                        </ul>
-                                    </li>
+                                    <li><a href="#">Home</a></li>
                                     <li><a class="pages" href="#">Page</a>
                                         <ul class="sub-menu">
                                             <li><a href="about.html">About</a></li>
