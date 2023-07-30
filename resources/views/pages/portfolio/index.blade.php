@@ -29,9 +29,9 @@
                             </div>
                             <div class="service-inner">
                                 <div class="service-content">
-                                    <h4>Product Design</h4>
-                                    <p>Aspernatur sit adipisci quaerat unde at neque Redug Lagre dolor sit amet
-                                        consectetu. independent agency, free from the internal demands.</p>
+                                    <h4>Mobile Development</h4>
+                                    <p>Create complex enterprise,reliable software integration,
+                                        modernise your legacy system.</p>
                                     <a class="service-btn" href="#"><i class="ti-arrow-right"></i></a>
                                 </div>
                             </div>
@@ -45,9 +45,9 @@
                             </div>
                             <div class="service-inner">
                                 <div class="service-content">
-                                    <h4>It management</h4>
-                                    <p>Aspernatur sit adipisci quaerat unde at neque Redug Lagre dolor sit amet
-                                        consectetu. independent agency, free from the internal demands.</p>
+                                    <h4>QA & Testing</h4>
+                                    <p>Turn to our experts to perform comprehensive auditing of
+                                        your software.</p>
                                     <a class="service-btn" href="#"><i class="ti-arrow-right"></i></a>
                                 </div>
                             </div>
@@ -61,9 +61,9 @@
                             </div>
                             <div class="service-inner">
                                 <div class="service-content">
-                                    <h4>Data security</h4>
-                                    <p>Aspernatur sit adipisci quaerat unde at neque Redug Lagre dolor sit amet
-                                        consectetu. independent agency, free from the internal demands.</p>
+                                    <h4>IT Counsultancy</h4>
+                                    <p>Trust our top minds to eliminate workflow pain points, implement new tech, and
+                                        consolidate app.</p>
                                     <a class="service-btn" href="#"><i class="ti-arrow-right"></i></a>
                                 </div>
                             </div>
@@ -77,9 +77,9 @@
                             </div>
                             <div class="service-inner">
                                 <div class="service-content">
-                                    <h4>It consultancy</h4>
-                                    <p>Aspernatur sit adipisci quaerat unde at neque Redug Lagre dolor sit amet
-                                        consectetu. independent agency, free from the internal demands.</p>
+                                    <h4>UI/UX Design</h4>
+                                    <p>Build the product you need on time with an experienced team that uses a clear and
+                                        effective design.</p>
                                     <a class="service-btn" href="#"><i class="ti-arrow-right"></i></a>
                                 </div>
                             </div>
@@ -93,9 +93,9 @@
                             </div>
                             <div class="service-inner">
                                 <div class="service-content">
-                                    <h4>Cloude services</h4>
-                                    <p>Aspernatur sit adipisci quaerat unde at neque Redug Lagre dolor sit amet
-                                        consectetu. independent agency, free from the internal demands.</p>
+                                    <h4>Dedicated Team</h4>
+                                    <p>Over the past decade, our customers succeeded by leveraging Intellectsoft’s
+                                        process of building, motivating.</p>
                                     <a class="service-btn" href="#"><i class="ti-arrow-right"></i></a>
                                 </div>
                             </div>
@@ -109,9 +109,9 @@
                             </div>
                             <div class="service-inner">
                                 <div class="service-content">
-                                    <h4>It support helpdesk</h4>
-                                    <p>Aspernatur sit adipisci quaerat unde at neque Redug Lagre dolor sit amet
-                                        consectetu. independent agency, free from the internal demands.</p>
+                                    <h4>Web Development</h4>
+                                    <p>We carry more than just good coding skills. Our experience makes us stand out
+                                        from other web development.</p>
                                     <a class="service-btn" href="#"><i class="ti-arrow-right"></i></a>
                                 </div>
                             </div>
@@ -141,10 +141,12 @@
                     <div class="support-all about-content">
                         <div class="section-headline right-headline white-headline">
                             <h3>Technology <span class="color">more experts</span> that provides security</h3>
-                            <p>The phrasal sequence of the Lorem Ipsum text is now so widespread and commonplace that
-                                many DTP programmes can generate dummy text using the starting sequence "Lorem ipsum".
-                                Fortunately, the phrase 'Lorem Ipsum' is now recognized by electronic pre-press systems
-                                and, when found, an alarm can be raised.</p>
+                            <p>In an ever-evolving digital landscape, security has become a paramount concern for
+                                individuals and organizations alike. That's where our team of technology experts steps
+                                in to provide unparalleled security solutions tailored to your specific needs.
+                                <br>
+                                With a deep understanding of the latest cyber threats and vulnerabilities, our team of
+                                skilled professionals is at the forefront of safeguarding your digital assets.</p>
                         </div>
                         <div class="about-company">
                             <div class="single-about">
@@ -185,7 +187,7 @@
                         <div class="col-md-6 col-sm-6 col-xs-12">
                             <div class="fun_text wow fadeInUp" data-wow-delay="0.2s">
                                 <span class="counter-icon"><i class="ti-layers"></i></span>
-                                <span class="counter">510</span>
+                                <span class="counter">10+</span>
                                 <h4>Total projects</h4>
                             </div>
                         </div>
@@ -193,7 +195,7 @@
                         <div class="col-md-6 col-sm-6 col-xs-12">
                             <div class="fun_text wow fadeInUp" data-wow-delay="0.3s">
                                 <span class="counter-icon"><i class="ti-world"></i></span>
-                                <span class="counter">120</span>
+                                <span class="counter">2</span>
                                 <h4>Worldwide</h4>
                             </div>
                         </div>
@@ -201,7 +203,7 @@
                         <div class="col-md-6 col-sm-6 col-xs-12">
                             <div class="fun_text wow fadeInUp" data-wow-delay="0.4s">
                                 <span class="counter-icon"><i class="ti-cup"></i></span>
-                                <span class="counter">40</span>
+                                <span class="counter">0</span>
                                 <h4>Awards win</h4>
                             </div>
                         </div>
@@ -209,7 +211,7 @@
                         <div class="col-md-6 col-sm-6 col-xs-12">
                             <div class="fun_text wow fadeInUp" data-wow-delay="0.5s">
                                 <span class="counter-icon"><i class="ti-user"></i></span>
-                                <span class="counter">210</span>
+                                <span class="counter">5</span>
                                 <h4>Team member</h4>
                             </div>
                         </div>
@@ -226,10 +228,10 @@
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <div class="add-content">
-                        <h3>Render It solutions corporate company established since 1998</h3>
+                        <h3>Render It solutions corporate company established since 2022</h3>
                         <div class="add-contact">
-                            <span class="call-us"><i class="ti-mobile"></i>Toll free : +4321-7654543</span>
-                            <span class="call-us mail-us"><i class="ti-email"></i>Mail us : render-09@mail.com</span>
+                            <span class="call-us"><i class="ti-mobile"></i>Toll free : +94 714 921 447</span>
+                            <span class="call-us mail-us"><i class="ti-email"></i>Mail us : info@volexdigital.com</span>
                         </div>
                     </div>
                 </div>
@@ -283,10 +285,14 @@
                                     <div class="col-md-6 col-sm-6 col-xs-12">
                                         <div class="machine-text">
                                             <h3>Enterprise AI and data platform solutions</h3>
-                                            <p>Dummy text is also used to demonstrate the appearance of different
-                                                typefaces and layouts, and in general the content of dummy text is
-                                                nonsensical. used to demonstrate the appearance of different typefaces
-                                                and layouts, and in general the content of dummy text is nonsensical</p>
+                                            <p>Artificial Intelligence (AI) is no longer a concept of the future; it's
+                                                the driving force behind modern enterprises. Our Enterprise AI solutions
+                                                leverage the latest advancements in machine learning, natural language
+                                                processing, and predictive analytics to help you make smarter decisions,
+                                                automate mundane tasks, and unlock hidden opportunities within your
+                                                data. Whether it's optimizing operations, personalizing customer
+                                                experiences, or gaining a competitive edge, our AI solutions are
+                                                tailored to revolutionize the way you do business.</p>
                                             <ul>
                                                 <li><a href="#">Innovation idea latest business tecnology</a></li>
                                                 <li><a href="#">Digital content marketing online clients plateform</a>
@@ -312,11 +318,13 @@
                                     <div class="col-md-6 col-sm-6 col-xs-12">
                                         <div class="machine-text">
                                             <h3>Design and development use latest technology</h3>
-                                            <p>And in general the content of dummy text is nonsensical. used to
-                                                demonstrate the appearance of different typefaces and layouts, and in
-                                                general the content of dummy text is nonsensical. Dummy text is also
-                                                used to demonstrate the appearance of different typefaces and
-                                                layouts</p>
+                                            <p>Our development team takes pride in their coding prowess, leveraging the
+                                                latest technologies and programming languages to build robust and
+                                                scalable solutions. Whether it's web development, mobile apps, or custom
+                                                software, we use the best-suited technologies to ensure efficiency,
+                                                security, and seamless integration. We adhere to industry best
+                                                practices, ensuring that every line of code is optimized for
+                                                performance.</p>
                                             <ul>
                                                 <li><a href="#">Innovation idea latest business tecnology</a></li>
                                                 <li><a href="#">Digital content marketing online clients plateform</a>
@@ -342,10 +350,13 @@
                                     <div class="col-md-6 col-sm-6 col-xs-12">
                                         <div class="machine-text">
                                             <h3>Innovation idea latest business tecnology</h3>
-                                            <p>Used to demonstrate the appearance of different typefaces and layouts,
-                                                and in general the content of dummy text is nonsensical. text is also
-                                                used to demonstrate the appearance of different typefaces and layouts,
-                                                and in general the content of dummy text is nonsensical</p>
+                                            <p>The technological landscape evolves at lightning speed, and staying ahead
+                                                requires a keen eye on the latest trends and advancements. We pride
+                                                ourselves on being early adopters of cutting-edge business technology,
+                                                incorporating tools and frameworks that promise a competitive advantage
+                                                for our clients. Our expertise spans across cloud computing, data
+                                                analytics, blockchain, Internet of Things (IoT), and more, empowering
+                                                businesses to stay agile and relevant in dynamic markets.</p>
                                             <ul>
                                                 <li><a href="#">Innovation idea latest business tecnology</a></li>
                                                 <li><a href="#">Digital content marketing online clients plateform</a>
@@ -371,10 +382,13 @@
                                     <div class="col-md-6 col-sm-6 col-xs-12">
                                         <div class="machine-text">
                                             <h3>Digital content marketing online clients plateform</h3>
-                                            <p>Dummy text is also used. used to demonstrate the appearance of different
-                                                typefaces and layouts, and in general the content of dummy text is
-                                                nonsensica to demonstrate the appearance of different typefaces and
-                                                layouts, and in general the content of dummy text is nonsensical.</p>
+                                            <p>Creating great content is just the beginning. We believe in the power of
+                                                strategic content marketing to amplify your brand's reach and impact.
+                                                Our data-driven approach helps us identify your audience's preferences
+                                                and pain points, allowing us to tailor content that addresses their
+                                                needs and interests. Through SEO optimization, social media campaigns,
+                                                and targeted distribution, we ensure your content reaches the right
+                                                people at the right time..</p>
                                             <ul>
                                                 <li><a href="#">Innovation idea latest business tecnology</a></li>
                                                 <li><a href="#">Digital content marketing online clients plateform</a>
@@ -403,7 +417,7 @@
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <div class="section-headline text-center">
                         <h3>Working platform</h3>
-                        <p>Dummy text is also used to demonstrate the appearance of different typefaces and layouts</p>
+                        <p>The services provided through our company are available for you at any time.</p>
                     </div>
                 </div>
             </div>
@@ -432,7 +446,7 @@
                                                                           alt=""></a>
                                 </div>
                                 <div class="digital-content">
-                                    <h4>Tech & Education</h4>
+                                    <h4>Technology & Education</h4>
                                 </div>
                             </div>
                         </div>
@@ -452,21 +466,21 @@
                         </div>
                     </div>
                     <!-- digital-services -->
-                    <div class="col-md-3 col-sm-4 col-xs-12">
-                        <div class="digital-services">
-                            <div class="digital-wel s3-item">
-                                <div class="digital-img">
-                                    <a class="digital-icon" href="#"><img src="{{ asset('img/icon/a4.png') }}"
-                                                                          alt=""></a>
-                                </div>
-                                <div class="digital-content">
-                                    <h4>Solar & Energy</h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    {{--                    <div class="col-md-3 col-sm-4 col-xs-12">--}}
+                    {{--                        <div class="digital-services">--}}
+                    {{--                            <div class="digital-wel s3-item">--}}
+                    {{--                                <div class="digital-img">--}}
+                    {{--                                    <a class="digital-icon" href="#"><img src="{{ asset('img/icon/a4.png') }}"--}}
+                    {{--                                                                          alt=""></a>--}}
+                    {{--                                </div>--}}
+                    {{--                                <div class="digital-content">--}}
+                    {{--                                    <h4>Solar & Energy</h4>--}}
+                    {{--                                </div>--}}
+                    {{--                            </div>--}}
+                    {{--                        </div>--}}
+                    {{--                    </div>--}}
                     <!-- digital-services -->
-                    <div class="col-md-offset-3 col-md-3 col-sm-4 col-xs-12">
+                    <div class=" col-md-3 col-sm-4 col-xs-12">
                         <div class="digital-services">
                             <div class="digital-wel s5-item">
                                 <div class="digital-img">
@@ -480,19 +494,19 @@
                         </div>
                     </div>
                     <!-- digital-services -->
-                    <div class="col-md-3 col-sm-4 col-xs-12">
-                        <div class="digital-services">
-                            <div class="digital-wel s5-item">
-                                <div class="digital-img">
-                                    <a class="digital-icon" href="#"><img src="{{ asset('img/icon/a6.png') }}"
-                                                                          alt=""></a>
-                                </div>
-                                <div class="digital-content">
-                                    <h4>Non-profit & Ragal</h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    {{--                    <div class=" col-md-offset-5 col-md-3 col-sm-4 col-xs-12">--}}
+                    {{--                        <div class="digital-services">--}}
+                    {{--                            <div class="digital-wel s5-item">--}}
+                    {{--                                <div class="digital-img">--}}
+                    {{--                                    <a class="digital-icon" href="#"><img src="{{ asset('img/icon/a6.png') }}"--}}
+                    {{--                                                                          alt=""></a>--}}
+                    {{--                                </div>--}}
+                    {{--                                <div class="digital-content">--}}
+                    {{--                                    <h4>Non-profit & Ragal</h4>--}}
+                    {{--                                </div>--}}
+                    {{--                            </div>--}}
+                    {{--                        </div>--}}
+                    {{--                    </div>--}}
                     <!-- digital-services -->
                 </div>
             </div>
@@ -505,8 +519,10 @@
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <div class="section-headline text-center">
-                        <h3>Global investment plan news</h3>
-                        <p>Dummy text is also used to demonstrate the appearance of different typefaces and layouts</p>
+                        <h3>Volex Digital Latest news</h3>
+                        <p>Stay up-to-date with the latest news from around the world, right at your fingertips. Our
+                            news platform brings you real-time updates on global events, breaking news, and insightful
+                            stories that matter to you.</p>
                     </div>
                 </div>
             </div>
