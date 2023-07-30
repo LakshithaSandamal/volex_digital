@@ -25,3 +25,6 @@ Route::prefix('/admin')->group(function(){
 Route::get('/about',function (){
    return view('pages.portfolio.about');
 });
+Route::get('/team',function (){
+    return view('pages.portfolio.team');
+});

@@ -7,7 +7,7 @@
                     <div class="topbar-left">
                         <ul>
                             <li><a href="mailto:info@volexdigital.com"><i class="fa fa-envelope"></i>info@volexdigital.com</a></li>
-                            <li><a href="tel:+94766770227"><i class="fa fa-phone-square"></i>+94 766 770 227</a></li>
+                            <li><a href="tel:+94714921477"><i class="fa fa-phone-square"></i>+94 714 921 447</a></li>
                         </ul>
                     </div>
                 </div>
@@ -62,14 +62,7 @@
                             <div class="main-menu">
                                 <ul class="nav navbar-nav navbar-right">
                                     <li><a href="#">Home</a></li>
-                                    <li><a class="pages" href="#">Page</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="about.html">About</a></li>
-                                            <li><a href="team.html">Team</a></li>
-                                            <li><a href="review.html">Reviews</a></li>
-                                            <li><a href="faq.html">FAQ</a></li>
-                                        </ul>
-                                    </li>
+                                    <li><a href="{{ route()  }}">About</a></li>
                                     <li><a class="pages" href="#">Services</a>
                                         <ul class="sub-menu">
                                             <li><a href="services.html">Services</a></li>
