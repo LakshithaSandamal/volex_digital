@@ -45,15 +45,6 @@
                 <div class="col-md-9 col-sm-9">
                     <div class="header-right-link">
                         <!-- search option start -->
-                        <div class="search-inner">
-                            <form action="#">
-                                <div class="search-option">
-                                    <input type="text" placeholder="Search...">
-                                    <button class="button" type="submit"><i class="fa fa-search"></i></button>
-                                </div>
-                                <a class="main-search" href="#"><i class="fa fa-search"></i></a>
-                            </form>
-                        </div>
                         <a class="s-menu" href="login.html">It Consultant</a>
                     </div>
                     <!-- mainmenu start -->
@@ -61,29 +52,10 @@
                         <div class="collapse navbar-collapse" id="navbar-example">
                             <div class="main-menu">
                                 <ul class="nav navbar-nav navbar-right">
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="{{ route()  }}">About</a></li>
-                                    <li><a class="pages" href="#">Services</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="services.html">Services</a></li>
-                                            <li><a href="services-2.html">Services 2</a></li>
-                                            <li><a href="service-details.html">Service Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a class="pages" href="#">Project</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="project.html">Portfolio</a></li>
-                                            <li><a href="project-details.html">Project details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a class="pages" href="#">Blog</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="blog.html">Blog grid</a></li>
-                                            <li><a href="blog-sidebar.html">Blog List</a></li>
-                                            <li><a href="blog-details.html">Blog Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="contact.html">contacts</a></li>
+                                    <li><a href="{{ route('portfolio') }}">Home</a></li>
+                                    <li><a href="{{ route('about') }}">About</a></li>
+                                    <li><a href="{{ route('team') }}">Team</a></li>
+                                    <li><a href="#">contacts</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -105,42 +77,10 @@
                         </div>
                         <nav id="dropdown">
                             <ul>
-                                <li><a class="pages" href="index.html">Home</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="index.html">Home 01</a></li>
-                                        <li><a href="index-2.html">Home 02</a></li>
-                                        <li><a href="index-3.html">Home 03</a></li>
-                                    </ul>
-                                </li>
-                                <li><a class="pages" href="#">Page</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="about.html">About</a></li>
-                                        <li><a href="team.html">Team</a></li>
-                                        <li><a href="review.html">Reviews</a></li>
-                                        <li><a href="faq.html">FAQ</a></li>
-                                    </ul>
-                                </li>
-                                <li><a class="pages" href="#">Services</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="services.html">Services</a></li>
-                                        <li><a href="services-2.html">Services 2</a></li>
-                                        <li><a href="service-details.html">Service Details</a></li>
-                                    </ul>
-                                </li>
-                                <li><a class="pages" href="#">Project</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="project.html">Portfolio</a></li>
-                                        <li><a href="project-details.html">Project details</a></li>
-                                    </ul>
-                                </li>
-                                <li><a class="pages" href="#">Blog</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="blog.html">Blog grid</a></li>
-                                        <li><a href="blog-sidebar.html">Blog List</a></li>
-                                        <li><a href="blog-details.html">Blog Details</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="contact.html">contacts</a></li>
+                                <li><a href="{{ route('portfolio') }}">Home</a></li>
+                                <li><a href="{{ route('about') }}">About</a></li>
+                                <li><a href="{{ route('team') }}">Team</a></li>
+                                <li><a href="#">contacts</a></li>
                             </ul>
                         </nav>
                     </div>

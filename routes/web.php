@@ -22,9 +22,10 @@ Route::prefix('/admin')->group(function(){
     Route::get('/dashboard', [AdminController::class , 'dashboard'])->name('admin.dashboard');
 });
 
-Route::get('/about',function (){
-   return view('pages.portfolio.about');
-});
+Route::get('/about', function () {
+    return view('pages.portfolio.about');
+})->name('about');
+
 Route::get('/team',function (){
     return view('pages.portfolio.team');
-});
+})->name('team');

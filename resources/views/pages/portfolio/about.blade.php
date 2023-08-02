@@ -1,7 +1,7 @@
 @extends('layouts.portfolio')
 @section('content')
 <!-- Start Bottom Header -->
-<div class="page-area" >
+<div class="page-area" style="background-image: url('{{ asset("img/background/bread.jpg") }}')">
 {{--    <div class="page-area" style="background-color: #0A27D5">--}}
     <div class="breadcumb-overlay"></div>
     <div class="container" >
@@ -77,7 +77,7 @@
 </div>
 <!-- Welcome service area End -->
 <!-- about-area start -->
-<div class="about-area about-2 fix">
+<div class="about-area about-2 fix" style="background-image: url(' {{ asset("img/background/ag1.jpg") }} ')">
     <div class="container-full">
         <div class="row">
             <div class="col-md-5 col-sm-4 col-xs-12">

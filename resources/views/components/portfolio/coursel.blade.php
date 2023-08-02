@@ -1,7 +1,7 @@
 
 <div class="intro-content-2">
     <div class="slider-images">
-        <img src="{{ asset('img/slider/h3.jpg') }}" alt="">
+        <img src="{{ asset('img/slider/h5.jpg') }}" alt="">
     </div>
     <div class="slider-content">
         <div class="display-table">
@@ -31,7 +31,7 @@
 </div>
 <div class="intro-content-2 slide-2">
     <div class="slider-images">
-        <img src="{{ asset('img/slider/h4.jpg') }}" alt="">
+        <img src="{{ asset('img/slider/h6.jpg') }}" alt="">
     </div>
     <div class="slider-content">
         <div class="display-table">

@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <div id="preloader"></div>
+    <div class="preloader" id="preloader" style="background: url('{{ asset('img/logo/preloader.gif') }}')"></div>
     @include('components.portfolio.header')
 
     @yield('content')

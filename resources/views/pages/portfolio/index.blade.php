@@ -174,10 +174,10 @@
                 <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="counter-image">
                         <div class="rotmate-image rotateme">
-                            <img src="{{ asset('img/about/circle.png') }}" alt="">
+                            <div></div>
                         </div>
                         <div class="top-img">
-                            <img src="{{ asset('img/about/self.png') }}" alt="">
+                            <img src="{{ asset('img/about/self.svg') }}" alt=""/>
                         </div>
                     </div>
                 </div>
@@ -465,21 +465,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- digital-services -->
-                    {{--                    <div class="col-md-3 col-sm-4 col-xs-12">--}}
-                    {{--                        <div class="digital-services">--}}
-                    {{--                            <div class="digital-wel s3-item">--}}
-                    {{--                                <div class="digital-img">--}}
-                    {{--                                    <a class="digital-icon" href="#"><img src="{{ asset('img/icon/a4.png') }}"--}}
-                    {{--                                                                          alt=""></a>--}}
-                    {{--                                </div>--}}
-                    {{--                                <div class="digital-content">--}}
-                    {{--                                    <h4>Solar & Energy</h4>--}}
-                    {{--                                </div>--}}
-                    {{--                            </div>--}}
-                    {{--                        </div>--}}
-                    {{--                    </div>--}}
-                    <!-- digital-services -->
                     <div class=" col-md-3 col-sm-4 col-xs-12">
                         <div class="digital-services">
                             <div class="digital-wel s5-item">
@@ -493,21 +478,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- digital-services -->
-                    {{--                    <div class=" col-md-offset-5 col-md-3 col-sm-4 col-xs-12">--}}
-                    {{--                        <div class="digital-services">--}}
-                    {{--                            <div class="digital-wel s5-item">--}}
-                    {{--                                <div class="digital-img">--}}
-                    {{--                                    <a class="digital-icon" href="#"><img src="{{ asset('img/icon/a6.png') }}"--}}
-                    {{--                                                                          alt=""></a>--}}
-                    {{--                                </div>--}}
-                    {{--                                <div class="digital-content">--}}
-                    {{--                                    <h4>Non-profit & Ragal</h4>--}}
-                    {{--                                </div>--}}
-                    {{--                            </div>--}}
-                    {{--                        </div>--}}
-                    {{--                    </div>--}}
-                    <!-- digital-services -->
                 </div>
             </div>
         </div>
