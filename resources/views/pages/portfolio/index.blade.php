@@ -1,15 +1,12 @@
 @extends('layouts.portfolio')
 
 @section('content')
-    <!-- Start Slider Area -->
     <div class="intro-area intro-area-3">
         <div class="intro-carousel">
             @include('components.portfolio.coursel')
         </div>
     </div>
-    <!-- End Slider Area -->
-    <!-- Start service area -->
-    <div class="service-area service-area-2 bg-color area-padding-2">
+    <div class="service-area service-area-2 bg-color area-padding-2" id="service">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12">
@@ -21,9 +18,8 @@
             </div>
             <div class="row">
                 <div class="all-services">
-                    <!-- single dervices -->
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="single-service wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="single-service wow fadeInUp" style="height: 400px" data-wow-delay="0.3s">
                             <div class="service-icon">
                                 <span class="flaticon-052-project-plan"></span>
                             </div>
@@ -32,14 +28,13 @@
                                     <h4>Mobile Development</h4>
                                     <p>Create complex enterprise,reliable software integration,
                                         modernise your legacy system.</p>
-                                    <a class="service-btn" href="#"><i class="ti-arrow-right"></i></a>
                                 </div>
                             </div>
+                            <a class="service-btn" href="{{ route('contact') }}"><i class="ti-arrow-right"></i></a>
                         </div>
                     </div>
-                    <!-- single dervices -->
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="single-service wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="single-service wow fadeInUp" style="height: 400px;" data-wow-delay="0.5s">
                             <div class="service-icon">
                                 <span class="flaticon-031-financial"></span>
                             </div>
@@ -48,14 +43,13 @@
                                     <h4>QA & Testing</h4>
                                     <p>Turn to our experts to perform comprehensive auditing of
                                         your software.</p>
-                                    <a class="service-btn" href="#"><i class="ti-arrow-right"></i></a>
                                 </div>
                             </div>
+                            <a class="service-btn" href="{{ route('contact') }}"><i class="ti-arrow-right"></i></a>
                         </div>
                     </div>
-                    <!-- single dervices -->
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="single-service wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="single-service wow fadeInUp" style="height: 400px;" data-wow-delay="0.7s">
                             <div class="service-icon">
                                 <span class="flaticon-057-statistics"></span>
                             </div>
@@ -64,14 +58,13 @@
                                     <h4>IT Counsultancy</h4>
                                     <p>Trust our top minds to eliminate workflow pain points, implement new tech, and
                                         consolidate app.</p>
-                                    <a class="service-btn" href="#"><i class="ti-arrow-right"></i></a>
+                                    </div>
                                 </div>
+                                <a class="service-btn" href="{{ route('contact') }}"><i class="ti-arrow-right"></i></a>
                             </div>
-                        </div>
                     </div>
-                    <!-- single dervices -->
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="single-service wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="single-service wow fadeInUp" style="height: 400px;" data-wow-delay="0.3s">
                             <div class="service-icon">
                                 <span class="flaticon-012-business"></span>
                             </div>
@@ -80,14 +73,13 @@
                                     <h4>UI/UX Design</h4>
                                     <p>Build the product you need on time with an experienced team that uses a clear and
                                         effective design.</p>
-                                    <a class="service-btn" href="#"><i class="ti-arrow-right"></i></a>
+                                    </div>
                                 </div>
-                            </div>
+                                <a class="service-btn" href="{{ route('contact') }}"><i class="ti-arrow-right"></i></a>
                         </div>
                     </div>
-                    <!-- single dervices -->
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="single-service wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="single-service wow fadeInUp" style="height: 400px;" data-wow-delay="0.5s">
                             <div class="service-icon">
                                 <span class="flaticon-041-network"></span>
                             </div>
@@ -96,14 +88,13 @@
                                     <h4>Dedicated Team</h4>
                                     <p>Over the past decade, our customers succeeded by leveraging Intellectsoft’s
                                         process of building, motivating.</p>
-                                    <a class="service-btn" href="#"><i class="ti-arrow-right"></i></a>
+                                    </div>
                                 </div>
-                            </div>
+                                <a class="service-btn" href="{{ route('contact') }}"><i class="ti-arrow-right"></i></a>
                         </div>
                     </div>
-                    <!-- single dervices -->
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="single-service wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="single-service wow fadeInUp" style="height: 400px;" data-wow-delay="0.7s">
                             <div class="service-icon">
                                 <span class="flaticon-002-analysis"></span>
                             </div>
@@ -112,41 +103,35 @@
                                     <h4>Web Development</h4>
                                     <p>We carry more than just good coding skills. Our experience makes us stand out
                                         from other web development.</p>
-                                    <a class="service-btn" href="#"><i class="ti-arrow-right"></i></a>
+                                    </div>
                                 </div>
-                            </div>
+                                <a class="service-btn" href="{{ route('contact') }}"><i class="ti-arrow-right"></i></a>
                         </div>
                     </div>
-                    <!-- single dervices -->
                 </div>
             </div>
         </div>
     </div>
-    <!-- End service area -->
-    <!-- about-area start -->
-    <div class="about-area about-2 fix">
+    <div class="about-area about-2 fix" style="background-image: url(' {{ asset("img/background/ag1.jpg") }} ')">
         <div class="container-full">
             <div class="row">
                 <div class="col-md-5 col-sm-4 col-xs-12">
                     <div class="about-image">
                         <div class="video-content ">
-                            <a href="https://www.youtube.com/watch?v=O33uuBh6nXA" class="video-play vid-zone">
+                            <a href="https://www.youtube.com/watch?v=0n3kXJn51kA" class="video-play vid-zone">
                                 <i class="fa fa-play"></i>
                             </a>
                         </div>
                     </div>
                 </div>
-                <!-- column end -->
                 <div class="col-md-7 col-sm-8 col-xs-12">
                     <div class="support-all about-content">
                         <div class="section-headline right-headline white-headline">
                             <h3>Technology <span class="color">more experts</span> that provides security</h3>
-                            <p>In an ever-evolving digital landscape, security has become a paramount concern for
-                                individuals and organizations alike. That's where our team of technology experts steps
-                                in to provide unparalleled security solutions tailored to your specific needs.
-                                <br>
-                                With a deep understanding of the latest cyber threats and vulnerabilities, our team of
-                                skilled professionals is at the forefront of safeguarding your digital assets.</p>
+                            <p>The phrasal sequence of the Lorem Ipsum text is now so widespread and commonplace that many
+                                DTP programmes can generate dummy text using the starting sequence "Lorem ipsum".
+                                Fortunately, the phrase 'Lorem Ipsum' is now recognized by electronic pre-press systems and,
+                                when found, an alarm can be raised.</p>
                         </div>
                         <div class="about-company">
                             <div class="single-about">
@@ -162,36 +147,26 @@
                         </div>
                     </div>
                 </div>
-                <!-- column end -->
             </div>
         </div>
     </div>
-    <!-- about-area end -->
-    <!-- Start Counter area -->
     <div class="counter-area fix area-padding">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-6 col-xs-12">
-                    <div class="counter-image">
-                        <div class="rotmate-image rotateme">
-                            <div></div>
-                        </div>
-                        <div class="top-img">
-                            <img src="{{ asset('img/about/self.svg') }}" alt=""/>
-                        </div>
+                    <div class="counter-img">
+                        <img src="{{ asset('img/about/self.svg') }}" alt=""/>
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="fun-text-all">
-                        <!-- single counter  -->
                         <div class="col-md-6 col-sm-6 col-xs-12">
                             <div class="fun_text wow fadeInUp" data-wow-delay="0.2s">
                                 <span class="counter-icon"><i class="ti-layers"></i></span>
-                                <span class="counter">10+</span>
+                                <span class="counter">3</span>
                                 <h4>Total projects</h4>
                             </div>
                         </div>
-                        <!-- single counter  -->
                         <div class="col-md-6 col-sm-6 col-xs-12">
                             <div class="fun_text wow fadeInUp" data-wow-delay="0.3s">
                                 <span class="counter-icon"><i class="ti-world"></i></span>
@@ -199,7 +174,6 @@
                                 <h4>Worldwide</h4>
                             </div>
                         </div>
-                        <!-- single counter  -->
                         <div class="col-md-6 col-sm-6 col-xs-12">
                             <div class="fun_text wow fadeInUp" data-wow-delay="0.4s">
                                 <span class="counter-icon"><i class="ti-cup"></i></span>
@@ -207,30 +181,26 @@
                                 <h4>Awards win</h4>
                             </div>
                         </div>
-                        <!-- single counter  -->
                         <div class="col-md-6 col-sm-6 col-xs-12">
                             <div class="fun_text wow fadeInUp" data-wow-delay="0.5s">
                                 <span class="counter-icon"><i class="ti-user"></i></span>
-                                <span class="counter">5</span>
+                                <span class="counter">6</span>
                                 <h4>Team member</h4>
                             </div>
                         </div>
-                        <!-- single counter  -->
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- End Counter area -->
-    <!-- Start Team Banner area -->
-    <div class="banner-area fix area-padding">
+    <div class="banner-area fix area-padding" style="background-image: url('{{ asset('img/background/bg2.jpg') }}')">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <div class="add-content">
-                        <h3>Render It solutions corporate company established since 2022</h3>
+                        <h3>volex digital software solution established since 2022</h3>
                         <div class="add-contact">
-                            <span class="call-us"><i class="ti-mobile"></i>Toll free : +94 714 921 447</span>
+                            <span class="call-us"><i class="ti-mobile"></i>Contact us : +94 714 921 447</span>
                             <span class="call-us mail-us"><i class="ti-email"></i>Mail us : info@volexdigital.com</span>
                         </div>
                     </div>
@@ -238,14 +208,11 @@
             </div>
         </div>
     </div>
-    <!-- End Team Banner area -->
-    <!-- Start Tab Area -->
     <div class="tab-area bg-color fix area-padding">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <div class="tab-menu">
-                        <!-- Start Nav tabs -->
                         <ul class="nav nav-tabs" role="tablist">
                             <li class="active">
                                 <a href="#p-view-1" role="tab" data-toggle="tab">
@@ -268,12 +235,10 @@
                                 </a>
                             </li>
                         </ul>
-                        <!-- End Nav tabs -->
                     </div>
                 </div>
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <div class="tab-content">
-                        <!--Start Tab Content -->
                         <div class="tab-pane active" id="p-view-1">
                             <div class="tab-inner">
                                 <div class="single-machine row">
@@ -294,19 +259,18 @@
                                                 experiences, or gaining a competitive edge, our AI solutions are
                                                 tailored to revolutionize the way you do business.</p>
                                             <ul>
-                                                <li><a href="#">Innovation idea latest business tecnology</a></li>
-                                                <li><a href="#">Digital content marketing online clients plateform</a>
+                                                <li><span>Innovation idea latest business tecnology</span></li>
+                                                <li><span>Digital content marketing online clients plateform</span>
                                                 </li>
-                                                <li><a href="#">Safe secure services for you online email account</a>
+                                                <li><span>Safe secure services for you online email account</span>
                                                 </li>
-                                                <li><a href="#">Innovation idea latest business tecnology</a></li>
+                                                <li><span>Innovation idea latest business tecnology</span></li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <!--Start Tab Content -->
                         <div class="tab-pane" id="p-view-2">
                             <div class="tab-inner">
                                 <div class="single-machine row">
@@ -326,19 +290,18 @@
                                                 practices, ensuring that every line of code is optimized for
                                                 performance.</p>
                                             <ul>
-                                                <li><a href="#">Innovation idea latest business tecnology</a></li>
-                                                <li><a href="#">Digital content marketing online clients plateform</a>
+                                                <li><span>Innovation idea latest business tecnology</span></li>
+                                                <li><span>Digital content marketing online clients plateform</span>
                                                 </li>
-                                                <li><a href="#">Safe secure services for you online email account</a>
+                                                <li><span>Safe secure services for you online email account</span>
                                                 </li>
-                                                <li><a href="#">Innovation idea latest business tecnology</a></li>
+                                                <li><span>Innovation idea latest business tecnology</span></li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <!--Start Tab Content -->
                         <div class="tab-pane" id="p-view-3">
                             <div class="tab-inner">
                                 <div class="single-machine row">
@@ -358,19 +321,18 @@
                                                 analytics, blockchain, Internet of Things (IoT), and more, empowering
                                                 businesses to stay agile and relevant in dynamic markets.</p>
                                             <ul>
-                                                <li><a href="#">Innovation idea latest business tecnology</a></li>
-                                                <li><a href="#">Digital content marketing online clients plateform</a>
+                                                <li><span>Innovation idea latest business tecnology</span></li>
+                                                <li><span>Digital content marketing online clients plateform</span>
                                                 </li>
-                                                <li><a href="#">Safe secure services for you online email account</a>
+                                                <li><span>Safe secure services for you online email account</span>
                                                 </li>
-                                                <li><a href="#">Innovation idea latest business tecnology</a></li>
+                                                <li><span>Innovation idea latest business tecnology</span></li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <!--Start Tab Content -->
                         <div class="tab-pane" id="p-view-4">
                             <div class="tab-inner">
                                 <div class="single-machine row">
@@ -390,27 +352,23 @@
                                                 and targeted distribution, we ensure your content reaches the right
                                                 people at the right time..</p>
                                             <ul>
-                                                <li><a href="#">Innovation idea latest business tecnology</a></li>
-                                                <li><a href="#">Digital content marketing online clients plateform</a>
+                                                <li><span>Innovation idea latest business tecnology</span></li>
+                                                <li><span>Digital content marketing online clients plateform</span>
                                                 </li>
-                                                <li><a href="#">Safe secure services for you online email account</a>
+                                                <li><span>Safe secure services for you online email account</span>
                                                 </li>
-                                                <li><a href="#">Innovation idea latest business tecnology</a></li>
+                                                <li><span>Innovation idea latest business tecnology</span></li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <!--Start Tab Content -->
                     </div>
                 </div>
             </div>
-            <!-- end Row -->
         </div>
     </div>
-    <!-- End Tab end -->
-    <!-- Start digital-services area -->
     <div class="digital-services-area area-padding-2">
         <div class="container">
             <div class="row">
@@ -423,13 +381,12 @@
             </div>
             <div class="row">
                 <div class="we-services">
-                    <!-- digital-services -->
                     <div class="col-md-3 col-sm-4 col-xs-12">
                         <div class="digital-services">
                             <div class="digital-wel s1-item">
                                 <div class="digital-img">
-                                    <a class="digital-icon" href="#"><img src="{{ asset('img/icon/a.png') }}"
-                                                                          alt=""></a>
+                                    <span class="digital-icon"><img src="{{ asset('img/icon/a.png') }}"
+                                                                          alt=""></span>
                                 </div>
                                 <div class="digital-content">
                                     <h4>Financial Services</h4>
@@ -437,13 +394,12 @@
                             </div>
                         </div>
                     </div>
-                    <!-- digital-services -->
                     <div class="col-md-3 col-sm-4 col-xs-12">
                         <div class="digital-services">
                             <div class="digital-wel s2-item">
                                 <div class="digital-img">
-                                    <a class="digital-icon" href="#"><img src="{{ asset('img/icon/a2.png') }}"
-                                                                          alt=""></a>
+                                    <span class="digital-icon"><img src="{{ asset('img/icon/a2.png') }}"
+                                                                          alt=""></span>
                                 </div>
                                 <div class="digital-content">
                                     <h4>Technology & Education</h4>
@@ -451,13 +407,12 @@
                             </div>
                         </div>
                     </div>
-                    <!-- digital-services -->
                     <div class="col-md-3 col-sm-4 col-xs-12">
                         <div class="digital-services">
                             <div class="digital-wel s4-item">
                                 <div class="digital-img">
-                                    <a class="digital-icon" href="#"><img src="{{ asset('img/icon/a3.png') }}"
-                                                                          alt=""></a>
+                                    <span class="digital-icon"><img src="{{ asset('img/icon/a3.png') }}"
+                                                                          alt=""></span>
                                 </div>
                                 <div class="digital-content">
                                     <h4>Creative & Media </h4>
@@ -469,8 +424,8 @@
                         <div class="digital-services">
                             <div class="digital-wel s5-item">
                                 <div class="digital-img">
-                                    <a class="digital-icon" href="#"><img src="{{ asset('img/icon/a5.png') }}"
-                                                                          alt=""></a>
+                                    <span class="digital-icon"><img src="{{ asset('img/icon/a5.png') }}"
+                                                                          alt=""></span>
                                 </div>
                                 <div class="digital-content">
                                     <h4>Health & Medichine</h4>
@@ -482,9 +437,9 @@
             </div>
         </div>
     </div>
-    <!-- End digital-servicesarea -->
-    <!-- Start Blog Area-->
-    <div class="blog-area fix bg-color area-padding-2">
+    {{-- news section --}}
+@endsection
+{{-- <div class="blog-area fix bg-color area-padding-2" style="display: none">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12">
@@ -498,7 +453,6 @@
             </div>
             <div class="row">
                 <div class="blog-grid home-blog">
-                    <!-- Start single blog -->
                     <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="single-blog">
                             <div class="blog-image">
@@ -527,8 +481,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- End single blog -->
-                    <!-- Start single blog -->
                     <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="single-blog">
                             <div class="blog-content">
@@ -585,7 +537,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- End single blog -->
                     <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="single-blog">
                             <div class="blog-content">
@@ -614,7 +565,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- End single blog -->
                     <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="single-blog">
                             <div class="blog-image">
@@ -643,7 +593,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- End single blog -->
                     <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="single-blog">
                             <div class="blog-content">
@@ -672,11 +621,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- End single blog -->
                 </div>
             </div>
-            <!-- End row -->
         </div>
-    </div>
-    <!-- End Blog Area-->
-@endsection
+    </div> --}}

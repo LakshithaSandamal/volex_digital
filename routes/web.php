@@ -1,6 +1,5 @@
 <?php
 
-use App\Http\Controllers\AdminController;
 use App\Http\Controllers\PortfolioController;
 use Illuminate\Support\Facades\Route;
 
@@ -16,16 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [PortfolioController::class , 'index'])->name('portfolio');
-//
-Route::prefix('/admin')->group(function(){
-    Route::get('/', [AdminController::class , 'index'])->name('admin.signIn');
-    Route::get('/dashboard', [AdminController::class , 'dashboard'])->name('admin.dashboard');
-});
-
-Route::get('/about', function () {
-    return view('pages.portfolio.about');
-})->name('about');
-
-Route::get('/team',function (){
-    return view('pages.portfolio.team');
-})->name('team');
+Route::get('/about', [PortfolioController::class , 'about'])->name('about');
+Route::get('/team', [PortfolioController::class , 'team'])->name('team');
+Route::get('/contact', [PortfolioController::class , 'contact'])->name('contact');
+// Route::get('/service', [PortfolioController::class , 'service'])->name('service');

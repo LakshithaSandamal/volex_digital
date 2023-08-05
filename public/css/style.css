@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,400i,500,600,700,800,900&amp;display=swap');
 html, body {
 	height: 100%;
+    scroll-behavior: smooth !important;
 }
 :root{
     --bg-primary-100:#11BCC6;
@@ -208,6 +209,10 @@ div#preloader {
     font-size: 17px;
     margin: 0 auto;
 }
+.section-headline span {
+    font-size: 17px;
+    margin: 0 auto;
+}
 .section-headline.left-headline p,
 .section-headline.right-headline p {
     max-width: 100%;
@@ -215,13 +220,6 @@ div#preloader {
 }
 .mar-row{
     margin-top: 50px;
-}
-.bg-background{
-    position: relative;
-    background: url(img/background/bgp3.html);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
 }
 .bg-white{
     background: #fff;
@@ -909,7 +907,9 @@ div#preloader {
     background: #f5f8fb;
     text-align: center;
     border: 1px solid #f5f8fb;
-    margin-top: 10px;
+    position: absolute;
+    left: calc(50% - 20px);
+    bottom: 50px;
 }
 .service-btn:hover{
     color: #fff;
@@ -927,17 +927,13 @@ div#preloader {
 /*--------------------------------*/
 /* 7. Counter Area
 /*--------------------------------*/
-.counter-image {
-    margin-right: 50px;
-    position: relative;
+.counter-img{
+    margin-top: 0px !important;
 }
-.top-img {
-    position: absolute;
-    top: 90px;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 2;
+@media (min-width:768px) {
+    .counter-img{
+        margin-top: 80px !important;
+    }
 }
 .fun_text {
     padding: 40px 10px;
@@ -976,7 +972,11 @@ div#preloader {
 /* 8. banner area css
 /*----------------------------------------*/
 .banner-area{
-   background: rgba(0, 0, 0, 0) url(img/background/bg2.jpg) no-repeat scroll center center / cover;
+    background-color: rgba(0, 0, 0, 0);
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     position: relative;
 }
 .banner-area:before{
@@ -1328,7 +1328,7 @@ div#preloader {
     display: block;
     position: relative;
 }
-.machine-text ul li a {
+.machine-text ul li span {
     font-size: 15px;
     color: #757b82;
     padding: 6px 0px 6px 35px;
@@ -1640,20 +1640,12 @@ div#preloader {
 }
 .footer-list li a {
     color: #151b2c;
-    padding: 7px 0px 10px 20px;
+    padding: 7px 0px 10px 0px;
     display: block;
     position: relative;
 }
 .footer-list li a:first-child{
 	padding-top: 0px;
-}
-.footer-list li a::after {
-    position: absolute;
-    content: "\e649";
-    top: 1px;
-    left: 0;
-    font-size: 11px;
-    font-family: themify;
 }
 .footer-list li a:hover,
 .footer-list li a:hover::after{
@@ -1975,12 +1967,13 @@ div#preloader {
 ----------------------------------------*/
 .digital-services {
     display: block;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .digital-wel {
     text-align: center;
     border: 1px solid rgba(48,120,251,0.4);
     padding: 30px;
+    height: 250px;
 }
 .digital-icon {
     font-size: 60px;

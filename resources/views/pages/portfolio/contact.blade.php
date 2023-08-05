@@ -1,144 +1,106 @@
 @extends('layouts.portfolio')
 
 @section('content')
-    <!-- header end -->
-    <!-- Start Bottom Header -->
-    <div class="page-area">
+    <div class="page-area" style="background-image: url('{{ asset("img/background/contact.png") }}')">
         <div class="breadcumb-overlay"></div>
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <div class="breadcrumb text-center">
                         <div class="section-headline white-headline text-center">
-                            <h3>Team</h3>
+                            <h3>contact</h3>
                         </div>
                         <ul>
                             <li class="home-bread">Home</li>
-                            <li>Team</li>
+                            <li>Contact</li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- END Header -->
-    <!--Start Team Area-->
-    <div class="team-area area-padding-2">
+    <div class="contact-area area-padding">
         <div class="container">
-            <!-- Start counter Area -->
             <div class="row">
-                <div class="col-md-12 col-sm-12 col-xs-12">
-                    <div class="section-headline text-center">
-                        <h3>Our Team member</h3>
-                        <p>Welcome to our exceptional team of talented individuals who are the driving force behind our
-                            success. Our team members are not just employees; they are passionate experts who bring
-                            their unique skills, dedication, and creativity to every project.</p>
+                <div class="contact-inner">
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="contact-icon text-center">
+                            <div class="single-icon">
+                                <i class="ti-mobile"></i>
+                                <p>
+                                    Call : +94 714 921 477<br>
+                                    <span>Always Open</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="contact-icon text-center">
+                            <div class="single-icon">
+                                <i class="ti-email"></i>
+                                <p>
+                                    Gmail : volexdigital@gmail.com<br>
+                                    <span>Email: info@volexdigital.com</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="contact-icon text-center">
+                            <div class="single-icon">
+                                <i class="ti-location-pin"></i>
+                                <p>
+                                    Location : NO.15 Olagankanda<br>
+                                    <span>Kegalle 71000</span>
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="team-member">
-                    <!-- team member-->
-                    <div class="col-md-3 col-sm-4 col-xs-12">
-                        <div class="single-member">
-                            <div class="team-img">
-                                <a href="#">
-                                    <img src="{{ asset('img/team/t1.jpg')  }}" alt="">
-                                </a>
-                            </div>
-                            <div class="team-content text-center">
-                                <h4><a href="#">Damnidu Prasad</a></h4>
-                                <p>Founder & CEO</p>
-                                <ul class="social-icon">
-                                    <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a class="instagram" href="#"><i class="fa fa-instagram"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- team member-->
-                    <div class="col-md-3 col-sm-4 col-xs-12">
-                        <div class="single-member">
-                            <div class="team-img">
-                                <a href="#">
-                                    <img src="img/team/t2.jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="team-content text-center">
-                                <h4><a href="#">Lakshitha Sadamal</a></h4>
-                                <p>web developer</p>
-                                <ul class="social-icon">
-                                    <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a class="instagram" href="#"><i class="fa fa-instagram"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- team member-->
-                    <div class="col-md-3 col-sm-4 col-xs-12">
-                        <div class="single-member">
-                            <div class="team-img">
-                                <a href="#">
-                                    <img src="img/team/t3.jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="team-content text-center">
-                                <h4><a href="#">Gethmina Bandara</a></h4>
-                                <p>Software developer</p>
-                                <ul class="social-icon">
-                                    <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a class="instagram" href="#"><i class="fa fa-instagram"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- team member-->
-                    <div class="col-md-3 col-sm-4 col-xs-12">
-                        <div class="single-member">
-                            <div class="team-img">
-                                <a href="#">
-                                    <img src="img/team/t4.jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="team-content text-center">
-                                <h4><a href="#">Isuru Chethiya</a></h4>
-                                <p>Software developer</p>
-                                <ul class="social-icon">
-                                    <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a class="instagram" href="#"><i class="fa fa-instagram"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- team member-->
-                    <div class="col-md-3 col-sm-4 col-xs-12">
-                        <div class="single-member">
-                            <div class="team-img">
-                                <a href="#">
-                                    <img src="img/team/t5.jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="team-content text-center">
-                                <h4><a href="#">Thamoddya Rashmitha</a></h4>
-                                <p>Software developer</p>
-                                <ul class="social-icon">
-                                    <li><a class="facebook" href="#"><i class="fa fa-web"></i></a></li>
-                                    <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a class="instagram" href="#"><i class="fa fa-instagram"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- team member-->
-
-                </div>
-            </div>
-            <!-- End row -->
+           {{-- code --}}
         </div>
     </div>
-    <!-- End Team Area-->
 @endsection
+{{--
+     <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <!-- Start Map -->
+                    <div class="map-area">
+                        <div id="googleMap" style="width:100%;height:420px;"></div>
+                    </div>
+                    <!-- End Map -->
+                </div>
+                <!-- Start Left contact -->
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="contact-form">
+                        <div class="row">
+                            <form id="contactForm" method="POST" action="https://rockstheme.com/rocks/randerc-preview/contact.php" class="contact-form">
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <input type="text" id="name" class="form-control" placeholder="Name" required data-error="Please enter your name">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <input type="email" class="email form-control" id="email" placeholder="Email" required data-error="Please enter your email">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <input type="text" id="msg_subject" class="form-control" placeholder="Subject" required data-error="Please enter your message subject">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <textarea id="message" rows="7" placeholder="Massage" class="form-control" required data-error="Write your message"></textarea>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                                <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+                                    <button type="submit" id="submit" class="add-btn contact-btn">Send Message</button>
+                                    <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Left contact -->
+            </div>
+    --}}

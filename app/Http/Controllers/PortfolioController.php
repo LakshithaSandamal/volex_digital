@@ -10,4 +10,20 @@ class PortfolioController extends Controller
     {
         return view('pages.portfolio.index');
     }
+
+    public function about(){
+        return view('pages.portfolio.about');
+    }
+
+    public function team(){
+        return view('pages.portfolio.team');
+    }
+
+    public function contact(){
+        return view('pages.portfolio.contact');
+    }
+
+    public function service(){
+        return view('pages.portfolio.service');
+    }
 }
