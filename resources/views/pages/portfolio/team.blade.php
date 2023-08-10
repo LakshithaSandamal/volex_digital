@@ -39,7 +39,7 @@
                                 <img src="{{ asset('img/team/t1.jpg')  }}" alt="">
                             </div>
                             <div class="team-content text-center">
-                                <h4><span>Damnidu Prasad</span></h4>
+                                <h4><span>Damindu Prasad</span></h4>
                                 <p>Founder & CEO</p>
                                 <ul class="social-icon">
                                     <li><a class="facebook" target="_blank" href="https://web.facebook.com/daminduprasad.dpcm"><i class="fa fa-facebook"></i></a></li>
